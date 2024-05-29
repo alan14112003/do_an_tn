@@ -5,7 +5,7 @@ FROM gradle:jdk-lts-and-current-graal-jammy AS builder
 WORKDIR /home/gradle/project
 
 # Sao chép file cấu hình và dependencies trước để cache
-COPY build.gradle.kts settings.gradle.kts ./
+COPY build.gradle settings.gradle ./
 COPY gradle ./gradle
 
 # Tải dependencies
