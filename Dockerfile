@@ -1,5 +1,5 @@
 # Sử dụng image chính thức của Gradle với Java 21
-FROM gradle:8.0-jdk21 AS builder
+FROM gradle:jdk-lts-and-current-graal-jammy AS builder
 
 # Thiết lập thư mục làm việc
 WORKDIR /home/gradle/project
