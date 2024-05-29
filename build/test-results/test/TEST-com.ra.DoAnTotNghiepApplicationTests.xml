@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ra.DoAnTotNghiepApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-29T10:35:23" hostname="LAPTOP-TMJ70RE3" time="1.363">
+<testsuite name="com.ra.DoAnTotNghiepApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-29T10:51:18" hostname="LAPTOP-TMJ70RE3" time="0.776">
   <properties/>
-  <testcase name="contextLoads()" classname="com.ra.DoAnTotNghiepApplicationTests" time="1.363"/>
-  <system-out><![CDATA[17:34:45.596 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ra.DoAnTotNghiepApplicationTests]: DoAnTotNghiepApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:34:45.772 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ra.DoAnTotNghiepApplication for test class com.ra.DoAnTotNghiepApplicationTests
+  <testcase name="contextLoads()" classname="com.ra.DoAnTotNghiepApplicationTests" time="0.776"/>
+  <system-out><![CDATA[17:50:43.582 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ra.DoAnTotNghiepApplicationTests]: DoAnTotNghiepApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:50:43.802 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ra.DoAnTotNghiepApplication for test class com.ra.DoAnTotNghiepApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,29 +13,29 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.3)
 
-2024-05-29T17:34:46.456+07:00  INFO 15712 --- [    Test worker] com.ra.DoAnTotNghiepApplicationTests     : Starting DoAnTotNghiepApplicationTests using Java 21.0.3 with PID 15712 (started by FPTSHOP in D:\WORKSPACE\CayThue\Java\DoAnTotNghiep)
-2024-05-29T17:34:46.458+07:00  INFO 15712 --- [    Test worker] com.ra.DoAnTotNghiepApplicationTests     : No active profile set, falling back to 1 default profile: "default"
-2024-05-29T17:34:47.939+07:00  INFO 15712 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-29T17:34:48.162+07:00  INFO 15712 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 213 ms. Found 17 JPA repository interfaces.
-2024-05-29T17:34:49.052+07:00  INFO 15712 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-29T17:34:49.201+07:00  INFO 15712 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-29T17:34:49.281+07:00  INFO 15712 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-29T17:34:49.637+07:00  INFO 15712 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-29T17:34:49.666+07:00  INFO 15712 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-29T17:34:53.335+07:00  INFO 15712 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7cbf4f8c
-2024-05-29T17:34:53.341+07:00  INFO 15712 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-29T17:34:55.981+07:00  INFO 15712 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-29T17:35:11.165+07:00  INFO 15712 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-29T17:35:13.999+07:00  INFO 15712 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-29T17:35:18.192+07:00  WARN 15712 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-29T17:35:21.472+07:00  INFO 15712 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@467924d8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20bc417f, org.springframework.security.web.context.SecurityContextHolderFilter@632cfbc5, org.springframework.security.web.header.HeaderWriterFilter@5ea4abef, org.springframework.web.filter.CorsFilter@614da024, org.springframework.security.web.authentication.logout.LogoutFilter@5a7e2f07, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7152ee36, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ce2f4d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58070889, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b76a0f4, org.springframework.security.web.access.ExceptionTranslationFilter@62a9c857, org.springframework.security.web.access.intercept.AuthorizationFilter@763960eb]
-2024-05-29T17:35:21.515+07:00  WARN 15712 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/home/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-2024-05-29T17:35:21.517+07:00  INFO 15712 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/home/**']
-2024-05-29T17:35:21.519+07:00  WARN 15712 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/fe/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-2024-05-29T17:35:21.519+07:00  INFO 15712 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/fe/**']
-2024-05-29T17:35:21.521+07:00  WARN 15712 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/uploads/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-2024-05-29T17:35:21.521+07:00  INFO 15712 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/uploads/**']
-2024-05-29T17:35:23.075+07:00  INFO 15712 --- [    Test worker] com.ra.DoAnTotNghiepApplicationTests     : Started DoAnTotNghiepApplicationTests in 37.035 seconds (process running for 39.35)
+2024-05-29T17:50:44.389+07:00  INFO 17932 --- [    Test worker] com.ra.DoAnTotNghiepApplicationTests     : Starting DoAnTotNghiepApplicationTests using Java 21.0.3 with PID 17932 (started by FPTSHOP in D:\WORKSPACE\CayThue\Java\DoAnTotNghiep)
+2024-05-29T17:50:44.398+07:00  INFO 17932 --- [    Test worker] com.ra.DoAnTotNghiepApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2024-05-29T17:50:45.956+07:00  INFO 17932 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-29T17:50:46.128+07:00  INFO 17932 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 160 ms. Found 17 JPA repository interfaces.
+2024-05-29T17:50:47.830+07:00  INFO 17932 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-29T17:50:47.972+07:00  INFO 17932 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-29T17:50:48.026+07:00  INFO 17932 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-29T17:50:48.373+07:00  INFO 17932 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-29T17:50:48.402+07:00  INFO 17932 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-29T17:50:52.383+07:00  INFO 17932 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7402c49f
+2024-05-29T17:50:52.399+07:00  INFO 17932 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-29T17:50:58.163+07:00  INFO 17932 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-29T17:51:12.737+07:00  INFO 17932 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-29T17:51:14.359+07:00  INFO 17932 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-29T17:51:17.015+07:00  WARN 17932 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-29T17:51:18.039+07:00  INFO 17932 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d60a62f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a7e2f07, org.springframework.security.web.context.SecurityContextHolderFilter@784fb189, org.springframework.security.web.header.HeaderWriterFilter@447522b4, org.springframework.web.filter.CorsFilter@1bab3926, org.springframework.security.web.authentication.logout.LogoutFilter@10e5471d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2400673b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fd6d887, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22e733f5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39a6c7a6, org.springframework.security.web.access.ExceptionTranslationFilter@59e938a4, org.springframework.security.web.access.intercept.AuthorizationFilter@6f14ce3]
+2024-05-29T17:51:18.057+07:00  WARN 17932 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/home/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-29T17:51:18.058+07:00  INFO 17932 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/home/**']
+2024-05-29T17:51:18.059+07:00  WARN 17932 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/fe/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-29T17:51:18.059+07:00  INFO 17932 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/fe/**']
+2024-05-29T17:51:18.060+07:00  WARN 17932 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/uploads/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-29T17:51:18.060+07:00  INFO 17932 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/uploads/**']
+2024-05-29T17:51:18.797+07:00  INFO 17932 --- [    Test worker] com.ra.DoAnTotNghiepApplicationTests     : Started DoAnTotNghiepApplicationTests in 34.749 seconds (process running for 36.781)
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\FPTSHOP\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.12\be4984cb6fd1ef1d11f218a648889dfda44b8a15\byte-buddy-agent-1.14.12.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
